@@ -32,8 +32,8 @@ export default function Component() {
       }
 
       alert("Email sent successfully!");
-    } catch (error: any) {
-      alert(`Error: ${error.message}`);
+    } catch (error) {
+      alert(`Error: ${error}`);
     }
   };
 
